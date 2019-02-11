@@ -1,25 +1,7 @@
 /*!
- * vue-no-ssr v1.1.1
- * (c) 2018-present egoist <0x142857@gmail.com>
- * Released under the MIT License.
- */
-
-/*!
- * Vue-Lazyload.js v1.2.6
- * (c) 2018 Awe <hilongjw@gmail.com>
- * Released under the MIT License.
- */
-
-/*!
- * Vue.js v2.5.22
+ * Vue.js v2.6.5
  * (c) 2014-2019 Evan You
  * Released under the MIT License.
- */
-
-/**
- * vuex v3.0.1
- * (c) 2017 Evan You
- * @license MIT
  */
 
 /*!
@@ -27,6 +9,12 @@
   * (c) 2018 Evan You
   * @license MIT
   */
+
+/**
+ * vuex v3.1.0
+ * (c) 2019 Evan You
+ * @license MIT
+ */
 
 /**
  * vue-meta v1.5.8
@@ -45,4 +33,16 @@
  *
  * @author   Feross Aboukhadijeh <https://feross.org>
  * @license  MIT
+ */
+
+/*!
+ * Vue-Lazyload.js v1.2.6
+ * (c) 2018 Awe <hilongjw@gmail.com>
+ * Released under the MIT License.
+ */
+
+/*!
+ * vue-no-ssr v1.1.1
+ * (c) 2018-present egoist <0x142857@gmail.com>
+ * Released under the MIT License.
  */
