@@ -23,6 +23,9 @@ Je m'assure de répondre à vos besoins et je me soucie particulièrement des pr
 
     function closeModal() {
       contactModal.style.display = "none"
+      if (window._paq) {
+        window._paq.push(["trackEvent", "Modales", "Contacter le freelance", "Close"]);
+      }
     }
 
     function showModal() {
@@ -32,4 +35,7 @@ Je m'assure de répondre à vos besoins et je me soucie particulièrement des pr
         dataDecoded = true;
       }
       contactModal.style.display = "block"
+      if (window._paq) {
+        window._paq.push(["trackEvent", "Modales", "Contacter le freelance", "Open"]);
+      }
     }</script>   <div class="bg-gray-800 text-white mt-12 p-12"><ul><li><a href="http://popcorn-nantes.github.io//tech/php">Développeurs freelances PHP</a></li><li><a href="http://popcorn-nantes.github.io//tech/symfony">Développeurs freelances Symfony</a></li><li><a href="http://popcorn-nantes.github.io//tech/react">Développeurs freelances React</a></li><li><a href="http://popcorn-nantes.github.io//tech/vue">Développeurs freelances Vue</a></li><li><a href="http://popcorn-nantes.github.io//tech/ruby">Développeurs freelances Ruby</a></li><li><a href="http://popcorn-nantes.github.io//tech/ruby-on-rails">Développeurs freelances Ruby on Rails</a></li><li><a href="http://popcorn-nantes.github.io//tech/scala">Développeurs freelances Scala</a></li></ul></div></body></html>
